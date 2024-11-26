@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Page</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                text-align: center;
+                background-color: #f0f8ff;
+            }
+            .product {
+                display: inline-block;
+                margin: 20px;
+                padding: 10px;
+                background-color: #ffffff;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+            .product img {
+                max-width: 300px;
+                height: auto;
+                border-radius: 8px;
+            }
+            .product-description {
+                margin-top: 10px;
+                font-size: 16px;
+                font-weight: bold;
+                color: #333;
+            }
+            .product-price {
+                margin-top: 5px;
+                font-size: 18px;
+                color: #e60000;
+            }
+            .snowflake-link, .cart-link {
+                display: block;
+                margin-top: 40px;
+                text-decoration: none;
+                font-size: 20px;
+                color: #0077b6;
+                font-weight: bold;
+            }
+            .snowflake {
+                font-size: 40px;
+            }
+            .cart {
+                font-size: 40px;
+            }
+        </style>
+    </head>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Order Form</title>
+</head>
+<body>
+
+  <h2>Order Your Product</h2>
+ 
+  <form action="submit.asp" method="GET">
+   
+    <!-- Customer Name -->
+    <label for="customerName">Name:</label>
+    <input type="text" id="customerName" name="customerName" required><br><br>
+   
+    <!-- Customer Email -->
+    <label for="customerEmail">Email:</label>
+    <input type="email" id="customerEmail" name="customerEmail" required><br><br>
+   
+    <!-- Product Selection -->
+    <label for="product">Select Product:</label>
+    <select id="product" name="product" required>
+      <option value="product1">Warmest Jacket you'll ever wear</option>
+      <option value="product2">Ear warmth assured</option>
+      <option value="product3">No frostbitten fingers</option>
+    </select><br><br>
+   
+    <!-- Quantity -->
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+   
+    <!-- Shipping Method -->
+    <label for="shipping">Shipping Method:</label>
+    <select id="shipping" name="shipping" required>
+      <option value="standard">Standard</option>
+      <option value="express">Express</option>
+    </select><br><br>
+   
+    <!-- Submit Button -->
+    <button type="submit">Order Now</button>
+
+  </form>
+
+ <!-- Snowflake Link to index.html -->
+ <iv class="snowflake-link"></iv>
+ <a href="index.html" class="snowflake">❄️</a>
+ <div>Click here to return to our welcome page</div>
+</div>
+
+</body>
+</html>
