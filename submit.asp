@@ -15,7 +15,7 @@ Set conn = Server.CreateObject("ADODB.Connection")
 On Error Resume Next
 conn.Open connString
 conn.Execute SQL
-If Err.Number = 0 Then
+If Err.Number = 0 Then  <a href="Thanksforshoppingpage.html"<a/>
     Response.Write("<h3>Thank you, " & customerName & "! Your order has been placed successfully.</h3>")
 Else
     Response.Write("<h3>Error: Unable to process your order. Please try again later.</h3>")
