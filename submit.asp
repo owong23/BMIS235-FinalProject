@@ -40,7 +40,7 @@ Else
             Response.Write("<h3>Error executing query: " & Err.Description & "</h3>")
         Else
             ' Redirect on successful insertion
-            Response.Redirect "Thanksforshoppingpage.asp"
+            Response.Redirect "Thanksforshoppingpage.html"
         End If
         Set cmd = Nothing
     End If
