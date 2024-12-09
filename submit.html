@@ -25,35 +25,6 @@
             .catch(error => console.error("Error:", error));
         }
     </script>
-</head>
-<body>
-    <form onsubmit="submitOrder(event)">
-        <label for="customerName">Name:</label>
-        <input type="text" id="customerName" name="customerName" required>
-        <br>
-        <label for="customerEmail">Email:</label>
-        <input type="email" id="customerEmail" name="customerEmail" required>
-        <br>
-        <label for="product">Product:</label>
-        <input type="text" id="product" name="product" required>
-        <br>
-        <label for="quantity">Quantity:</label>
-        <input type="number" id="quantity" name="quantity" required>
-        <br>
-        <label for="shipping">Shipping:</label>
-        <select id="shipping" name="shipping" required>
-            <option value="Standard">Standard</option>
-            <option value="Express">Express</option>
-        </select>
-        <br>
-        <button type="submit">Submit</button>
-    </form>
-</body>
-</html>
-
-
-
-
 
 
 %>
