@@ -15,9 +15,12 @@ Set conn = Server.CreateObject("ADODB.Connection")
 On Error Resume Next
 conn.Open connString
 conn.Execute SQL
-If Err.Number = 0 Then 
-    <a href="productpage.html"</a>
+If item = "" Or quantity = "" Then
+    Response.Write("<h3>Please complete the form.</h3>")
+Else
+    Response.Redirect "Thanksforshoppingpage.html"
 End If
+%>
 conn.Close
 
 
