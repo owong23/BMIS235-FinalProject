@@ -18,7 +18,7 @@ conn.Execute SQL
 If item = "" Or quantity = "" Then
     Response.Write("<h3>Please complete the form.</h3>")
 Else
-    Response.Redirect "Thanksforshoppingpage.html"
+    Response.Redirect "Thanksforshoppingpage.asp"
 End If
 %>
 conn.Close
